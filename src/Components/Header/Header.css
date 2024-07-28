@@ -1,0 +1,32 @@
+.Top_Header{
+    height: 15vh;
+    width: 100%;
+    border: 1px solid black;
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+.Left_header{
+    width: 50%;
+}
+.Left_header h6{
+    margin-left: 27px;
+}
+.Right_header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+.Logo_img{
+    height: 50px;
+}
+
+.Admin_logo{
+    float: inline-end;
+    margin-right: 20px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,78 @@
+/* AddItemForm.css */
+.add-item-container {
+  max-height: 80vh;
+  position: absolute;
+  left: 21px;
+  top: 23px;
+  width: 96%;
+  padding: 20px;
+  /* background-color: #ffffff; */
+  /* border: 1px solid #dcdcdc; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(128, 0, 128, 0.1);
+  overflow-y: auto;
+}
+
+.add-item-container::-webkit-scrollbar {
+  display: none;
+  /* Hide scrollbar */
+}
+
+.add-item-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+  /* Add transition */
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  /* Highlight border on focus */
+}
+
+.form-group textarea {
+  height: 100px;
+}
+
+.image-input-row {
+  margin-bottom: 10px;
+  /* Add margin between image input fields */
+}
+
+button {
+  padding: 12px 24px;
+  background-color: purple;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* Add transition */
+}
+
+button:hover {
+  background-color: #0056b3;
+  /* Darker color on hover */
+}

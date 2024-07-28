@@ -1,0 +1,56 @@
+.gradient-custom {
+    background: linear-gradient(to top left, rgba(205, 156, 242, 1), rgba(246, 243, 255, 1));
+  }
+  
+  .card {
+    border-radius: 10px;
+  }
+  
+  .card-header {
+    padding: 20px !important;
+  }
+  .card-body{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    border: 4px solid #eeee;
+    margin: 10px;
+}
+   .box{
+    padding: 20px !important;
+    border: 1px solid #eee;
+    margin: 10px;
+    margin-bottom: 21px;
+  }
+  .card-footer {
+    background-color: #a8729a;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px !important;
+  }.custom-dropdown select {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    -webkit-appearance: none; /* Remove default arrow on Chrome/Safari */
+    -moz-appearance: none; /* Remove default arrow on Firefox */
+    appearance: none; /* Remove default arrow on other browsers */
+  }
+  
+  .custom-dropdown select:focus {
+    outline: none;
+    border-color: #6c757d;
+  }
+  
+  /* Style for the dropdown when hovering */
+  .custom-dropdown:hover select {
+    background-color: #e9ecef;
+  }
+  
+.text-end{
+  text-align: end;
+}

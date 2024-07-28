@@ -1,0 +1,15 @@
+.struct{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.Header_main{
+    display: flex;
+}
+.content{
+    height: 85vh;
+    position: absolute;
+    right: 0px;
+    top: 83px;
+    width: 80%;
+}

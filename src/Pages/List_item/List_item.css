@@ -1,0 +1,7 @@
+@media (max-width: 767.98px) { .border-sm-start-none { border-left: none !important; } }
+
+.order{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
